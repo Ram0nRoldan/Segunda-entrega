@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Edu NSW ACT Foundation";
+}
+
+body {
+  background-color: #bdd9f2;
+}
+
+header {
+  text-align:center;  
+  background-color: #bdd9f2;
+}
+
+.pie {
+  text-align: center;
+  background-color: #378c8c;
+  padding:50px;
+}
+
+main {
+  font-size: larger;
+  background-color: #bdd9f2;
+  padding: 50px;
+  text-align: center;
+}
+
+.logoinicial {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  height: auto;
+}
+
+.instal {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+
+
+.men {
+
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+  
+}
+
+.men div img {
+  width: 300px;
+  height: 400px;
+  display: inline; 
+  padding-top: 35px;
+}
+
+
+.mn div {
+  margin: 60px;
+}
+
+.mn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:left;
+  font-size: smaller;
+  display: inline;
+}
+
+.mn div img {
+  width: 300px;
+  height: 450px;
+  display: block; 
+}
+
+.cont {
+  text-align: left;
+  background-color: #378c8c;
+}
+
+
+h1 {
+  font: size 60px;
+
+}
+
+.log {
+  position: fixed; /* Fija el elemento en una posición específica */
+  top: 80px; /* Lo posiciona en la parte superior de la ventana del navegador */
+  left: 1450px; /* Lo posiciona en el borde izquierdo de la ventana del navegador */
+  z-index: 1000;
+}
+
