@@ -8,6 +8,68 @@ body {
   background-color: #bdd9f2;
 }
 
+.index1 {
+  font-size: larger;
+  background-color: #D7E06B;
+  padding: 50px;
+  text-align: center;
+}
+
+.index2 {
+  font-size: larger;
+
+  padding: 50px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+.instal {
+  font-size: larger;
+background-color: #A8E06B;
+  padding: 50px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.hist1 {
+  font-size: larger;
+background-color: #A8E06B;
+  padding: 50px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.hist2 {
+  font-size: larger;
+  padding: 90px;
+  text-align: center;
+  background-color: #A8E06B;
+  display: flex;
+  flex-direction: column;
+}
+.hist3 {
+  font-size: larger;
+  padding: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.contacto1 {
+  font-size: larger;
+  background-color: #D7E06B;
+  padding: 50px;
+  text-align: center;
+}
+
 header {
   text-align:center;  
   background-color: #bdd9f2;
@@ -15,28 +77,31 @@ header {
 
 .pie {
   text-align: center;
-  background-color: #378c8c;
+  background-color: #E0A26B;
   padding:50px;
+  grid-area: footer;
 }
+
+
 
 section {
   font-size: larger;
   background-color: #bdd9f2;
-  padding: 30px;
+
   text-align: center;
 }
 
 article {
   font-size: larger;
   background-color: #bdd9f2;
-  padding: 20px;
+
   text-align: center;
 }
 
 main {
   font-size: larger;
   background-color: #bdd9f2;
-  padding: 50px;
+
   text-align: center;
 }
 
@@ -45,6 +110,7 @@ main {
   margin-top: 70px; 
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
   
   width: 600px;
   height: auto;
@@ -62,7 +128,10 @@ main {
 /* CSS personalizado para el carrusel */
 .car {
   width: 600px; /* Ancho deseado del carrusel */
-  margin: 0 auto; /* Centrar el carrusel horizontalmente */
+  margin-top: 70px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .car img {
@@ -148,4 +217,54 @@ h1 {
   margin-right: 700px;
 
   
+}
+
+.aprivacidad {
+  background-color: gray;
+  width: 100%;
+  padding: 50px; /* Añade un relleno para separar el contenido del borde */
+  box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+} 
+
+.logi img{
+  width: 100%;
+  box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+
+}
+
+
+.vide {
+  text-align: center;
+}
+
+.vide iframe {
+  display: inline-block;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas flexibles */
+  grid-template-rows: auto auto auto auto auto; /* Altura automática para cada fila */
+  grid-template-areas:
+    "encab encab encab"
+    "main main main"
+    "main main main"
+    "main main main"
+    "pie pie pie";
+}
+
+.encab {
+  grid-area: encab; /* Asignar el área correcta al encabezado */
+}
+
+main {
+  grid-area: main; /* Asignar el área correcta al contenido principal */
+}
+
+.pie {
+  grid-area: pie; /* Asignar el área correcta al pie de página */
+}
+
+.article {
+  grid-area: pie; /* Asignar el área correcta al pie de página */
 }
