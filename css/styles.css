@@ -19,6 +19,20 @@ header {
   padding:50px;
 }
 
+section {
+  font-size: larger;
+  background-color: #bdd9f2;
+  padding: 30px;
+  text-align: center;
+}
+
+article {
+  font-size: larger;
+  background-color: #bdd9f2;
+  padding: 20px;
+  text-align: center;
+}
+
 main {
   font-size: larger;
   background-color: #bdd9f2;
@@ -28,16 +42,33 @@ main {
 
 .logoinicial {
   display: block;
-  margin: 0 auto;
+  margin-top: 70px; 
+  margin-left: auto;
+  margin-right: auto;
+  
   width: 600px;
   height: auto;
+  
 }
+
 
 .instal {
     display: flex;
   flex-wrap: wrap;
   justify-content: center;
 
+}
+
+/* CSS personalizado para el carrusel */
+.car {
+  width: 600px; /* Ancho deseado del carrusel */
+  margin: 0 auto; /* Centrar el carrusel horizontalmente */
+}
+
+.car img {
+  max-height: 500px; /* Altura máxima de las imágenes */
+  width: auto; /* Ancho automático */
+  margin: 0 auto; /* Centrar las imágenes horizontalmente */
 }
 
 
@@ -62,22 +93,25 @@ main {
 }
 
 
-.mn div {
-  margin: 60px;
-}
-
-.mn {
+.navbar-expand-lg {
   display: flex;
-  flex-wrap: wrap;
-  justify-content:left;
-  font-size: smaller;
-  display: inline;
+  flex-flow: wrap;
+  margin: 60px;
+  justify-content:right;
+  font-size: medium;
+  display:inline
+  
 }
 
-.mn div img {
-  width: 300px;
-  height: 450px;
-  display: block; 
+.nave {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-end; /* Alinea los elementos a la derecha */
+  font-size:larger;
+  position: absolute;
+  right: 120px; /* Posiciona el menú en el extremo derecho de la página */
+  top: 20px; /* Opcional: posiciona el menú en la parte superior de la página */
+
 }
 
 .cont {
@@ -88,6 +122,9 @@ main {
 
 h1 {
   font: size 60px;
+  margin-top: 50px; 
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -98,3 +135,17 @@ h1 {
   z-index: 1000;
 }
 
+
+
+
+.mb-3{
+
+  display: flex;
+  flex-flow: wrap;
+  justify-content: left;
+  margin-top: 70px;
+  margin-left: 10px;
+  margin-right: 700px;
+
+  
+}
