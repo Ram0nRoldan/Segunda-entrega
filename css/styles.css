@@ -107,14 +107,12 @@ main {
 
 .logoinicial {
   display: block;
-  margin-top: 70px; 
+  margin-top: 50px; /* Ajusta el margen superior según sea necesario */
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
-  
-  width: 600px;
-  height: auto;
-  
+  margin-bottom: 30px; /* Ajusta el margen inferior según sea necesario */
+  max-width: 100%; /* Cambiamos width por max-width para que la imagen se adapte */
+  height: auto; /* La altura se ajustará automáticamente manteniendo la proporción */
 }
 
 
