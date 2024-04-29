@@ -125,9 +125,8 @@ main {
 
 }
 
-/* CSS personalizado para el carrusel */
 .car {
-  width: 600px; /* Ancho deseado del carrusel */
+  width: 600px; 
   margin-top: 70px; 
   margin-left: auto;
   margin-right: auto;
@@ -135,9 +134,9 @@ main {
 }
 
 .car img {
-  max-height: 500px; /* Altura máxima de las imágenes */
-  width: auto; /* Ancho automático */
-  margin: 0 auto; /* Centrar las imágenes horizontalmente */
+  max-height: 500px; 
+  width: auto; 
+  margin: 0 auto; 
 }
 
 
@@ -175,12 +174,11 @@ main {
 .nave {
   display: flex;
   flex-flow: wrap;
-  justify-content: flex-end; /* Alinea los elementos a la derecha */
+  justify-content: flex-end; 
   font-size:larger;
   position: absolute;
-  right: 120px; /* Posiciona el menú en el extremo derecho de la página */
-  top: 20px; /* Opcional: posiciona el menú en la parte superior de la página */
-
+  right: 120px; 
+  top: 20px; 
 }
 
 .cont {
@@ -198,14 +196,11 @@ h1 {
 }
 
 .log {
-  position: fixed; /* Fija el elemento en una posición específica */
-  top: 80px; /* Lo posiciona en la parte superior de la ventana del navegador */
-  left: 1450px; /* Lo posiciona en el borde izquierdo de la ventana del navegador */
+  position: fixed; 
+  top: 80px; 
+  left: 1450px; 
   z-index: 1000;
 }
-
-
-
 
 .mb-3{
 
@@ -214,21 +209,19 @@ h1 {
   justify-content: left;
   margin-top: 70px;
   margin-left: 10px;
-  margin-right: 700px;
-
-  
+  margin-right: 700px; 
 }
 
 .aprivacidad {
   background-color: gray;
   width: 100%;
-  padding: 50px; /* Añade un relleno para separar el contenido del borde */
-  box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+  padding: 50px; 
+  box-sizing: border-box; 
 } 
 
 .logi img{
   width: 100%;
-  box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+  box-sizing: border-box; 
 
 }
 
@@ -243,8 +236,8 @@ h1 {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Tres columnas flexibles */
-  grid-template-rows: auto auto auto auto auto; /* Altura automática para cada fila */
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: auto auto auto auto auto; 
   grid-template-areas:
     "encab encab encab"
     "main main main"
@@ -254,17 +247,17 @@ h1 {
 }
 
 .encab {
-  grid-area: encab; /* Asignar el área correcta al encabezado */
+  grid-area: encab; 
 }
 
 main {
-  grid-area: main; /* Asignar el área correcta al contenido principal */
+  grid-area: main; 
 }
 
 .pie {
-  grid-area: pie; /* Asignar el área correcta al pie de página */
+  grid-area: pie; 
 }
 
 .article {
-  grid-area: pie; /* Asignar el área correcta al pie de página */
+  grid-area: pie; 
 }
