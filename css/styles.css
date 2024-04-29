@@ -235,6 +235,7 @@ h1 {
 
 .vide iframe {
   max-width: 100%; /* Ajustamos el ancho máximo del iframe */
+  width: 100%; /* Ajustamos el ancho del iframe al 100% */
   height: auto; /* La altura se ajustará automáticamente manteniendo la proporción */
   display: block;
   margin: 0 auto; /* Centramos el iframe horizontalmente */
