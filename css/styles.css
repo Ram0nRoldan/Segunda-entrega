@@ -124,17 +124,20 @@ main {
 }
 
 .car {
-  width: 600px; 
-  margin-top: 70px; 
+  width: 90%; /* Cambiamos el ancho fijo por un porcentaje para que se adapte */
+  max-width: 600px; /* Establecemos un ancho máximo para evitar que la imagen se estire demasiado en pantallas grandes */
+  margin-top: 50px; /* Ajusta el margen superior según sea necesario */
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
+  margin-bottom: 30px; /* Ajusta el margen inferior según sea necesario */
 }
 
+
 .car img {
-  max-height: 500px; 
-  width: auto; 
-  margin: 0 auto; 
+  max-width: 100%; /* Cambiamos max-height por max-width para que la imagen se adapte */
+  height: auto; /* La altura se ajustará automáticamente manteniendo la proporción */
+  display: block;
+  margin: 0 auto; /* Centramos la imagen horizontalmente */
 }
 
 
@@ -217,19 +220,24 @@ h1 {
   box-sizing: border-box; 
 } 
 
-.logi img{
-  width: 100%;
-  box-sizing: border-box; 
-
+.logi img {
+  max-width: 100%; /* Cambiamos width por max-width para que la imagen se adapte */
+  height: auto; /* La altura se ajustará automáticamente manteniendo la proporción */
+  box-sizing: border-box; /* Mantenemos el modelo de caja border-box */
+  display: block;
+  margin: 0 auto; /* Centramos la imagen horizontalmente */
 }
 
 
 .vide {
-  text-align: center;
+  text-align: center; /* Centramos el contenido horizontalmente */
 }
 
 .vide iframe {
-  display: inline-block;
+  max-width: 100%; /* Ajustamos el ancho máximo del iframe */
+  height: auto; /* La altura se ajustará automáticamente manteniendo la proporción */
+  display: block;
+  margin: 0 auto; /* Centramos el iframe horizontalmente */
 }
 
 .grid-container {
