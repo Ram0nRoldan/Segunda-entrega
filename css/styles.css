@@ -107,12 +107,12 @@ main {
 
 .logoinicial {
   display: block;
-  margin-top: 50px; /* Ajusta el margen superior según sea necesario */
+  margin-top: 50px; 
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px; /* Ajusta el margen inferior según sea necesario */
-  max-width: 100%; /* Cambiamos width por max-width para que la imagen se adapte */
-  height: auto; /* La altura se ajustará automáticamente manteniendo la proporción */
+  margin-bottom: 30px; 
+  max-width: 100%; 
+  height: auto; 
 }
 
 
@@ -124,20 +124,20 @@ main {
 }
 
 .car {
-  width: 90%; /* Cambiamos el ancho fijo por un porcentaje para que se adapte */
-  max-width: 600px; /* Establecemos un ancho máximo para evitar que la imagen se estire demasiado en pantallas grandes */
-  margin-top: 50px; /* Ajusta el margen superior según sea necesario */
+  width: 90%; 
+  max-width: 600px; 
+  margin-top: 50px; 
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px; /* Ajusta el margen inferior según sea necesario */
+  margin-bottom: 30px; 
 }
 
 
 .car img {
-  max-width: 100%; /* Cambiamos max-height por max-width para que la imagen se adapte */
-  height: auto; /* La altura se ajustará automáticamente manteniendo la proporción */
+  max-width: 100%; 
+  height: auto; 
   display: block;
-  margin: 0 auto; /* Centramos la imagen horizontalmente */
+  margin: 0 auto; 
 }
 
 
@@ -176,7 +176,7 @@ main {
   display: flex;
   flex-flow: wrap;
   justify-content: flex-end; 
-  font-size:larger;
+  font-size:medium
   position: absolute;
   right: 120px; 
   top: 20px; 
@@ -221,24 +221,24 @@ h1 {
 } 
 
 .logi img {
-  max-width: 100%; /* Cambiamos width por max-width para que la imagen se adapte */
-  height: auto; /* La altura se ajustará automáticamente manteniendo la proporción */
-  box-sizing: border-box; /* Mantenemos el modelo de caja border-box */
+  max-width: 100%;
+  height: auto; 
+  box-sizing: border-box; 
   display: block;
-  margin: 0 auto; /* Centramos la imagen horizontalmente */
+  margin: 0 auto; 
 }
 
 
 .vide {
-  text-align: center; /* Centramos el contenido horizontalmente */
+  text-align: center; 
 }
 
 .vide iframe {
-  max-width: 100%; /* Ajustamos el ancho máximo del iframe */
-  width: 100%; /* Ajustamos el ancho del iframe al 100% */
-  height: auto; /* La altura se ajustará automáticamente manteniendo la proporción */
+  max-width: 100%; 
+  width: 100%; 
+  height: auto; 
   display: block;
-  margin: 0 auto; /* Centramos el iframe horizontalmente */
+  margin: 0 auto; 
 }
 
 .grid-container {
