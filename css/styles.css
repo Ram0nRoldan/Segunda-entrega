@@ -176,7 +176,7 @@ main {
   display: flex;
   flex-flow: wrap;
   justify-content: flex-end; 
-  font-size:medium;
+  font-size:larger;
   position: absolute;
   right: 120px; 
   top: 20px; 
