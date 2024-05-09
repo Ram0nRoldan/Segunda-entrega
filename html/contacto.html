@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,8 +15,8 @@
     <title>Contacto</title>
 </head>
 <body>
-    <header>
-        <nav class="nave">
+    <header class="header">
+        <nav class="header__nav">
             <ul class="nav nav-underline">
                 <li class="nav-item">
                     <a class="nav-link" href="../index.html">Inicio</a>
@@ -36,63 +35,57 @@
                 </li>
             </ul>
         </nav>
-        <img src="../assets/LOGO.jpg" class="logoinicial">
+        <img src="../assets/LOGO.jpg" class="header__logo">
     </header>
 
-    <main>
-        <section>
-            <article class="contacto1">
-                <h1>CONTACTO</h1>
-                <p>¿Tienes alguna pregunta, comentario o inquietud? Estamos aquí para ayudarte. Ponte en contacto con nuestro equipo amigable y experto a través de nuestros canales de comunicación disponibles. Ya sea que necesites asistencia con tus membresías, tengas consultas sobre nuestros servicios o simplemente quieras decir hola, estamos aquí para escucharte.</p>
-            </article>
-
+    <main class="main">
+        <section class="main__section">
             <article class="aprivacidad">
-                <h3>AVISO DE PRIVACIDAD</h3>
-                <p>
+                <h3 class="aprivacidad__title">AVISO DE PRIVACIDAD</h3>
+                <p class="aprivacidad__content">
                     AVISO DE PRIVACIDAD
                     ESTIMADO CLIENTE, en POWERGYM S.A. DE C.V. estamos conscientes de la importancia de proteger correctamente los datos personales de nuestros clientes, es por ello y de conformidad con lo establecido en los artículos 15, 16, y demás relativos y aplicables de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP), POWERGYM S.A. DE C.V. (en lo sucesivo POWERGYM), con domicilio en Calle Prolongación División del Norte CDMX, Del. Tlalpan, C.P. 14380, México, que en su calidad de responsable pone a su disposición el siguiente Aviso de Privacidad, a fin de que tenga pleno conocimiento sobre el tratamiento que se le dará a sus datos personales, así como facilitarle el ejercicio de los derechos que la LFPDPPP le otorga.
                 </p>
-                <p>
+                <p class="aprivacidad__content">
                     1.- Datos Personales tratados.
                     Los datos personales que recopilamos de nuestros clientes son: nombre, domicilio, teléfono, género y correo electrónico. Asimismo, en el caso de que el cliente opte por pagar los servicios que le presta POWERGYM a través de cargos recurrentes o pagos domiciliados, se recopilará la información referente a una cuenta bancaria, tarjeta de crédito o tarjeta de débito que el usuario proporcionará para tal efecto.
                 </p>
-                <p>
+                <p class="aprivacidad__content">
                     Cabe mencionar que todos los datos personales antes reseñados son indispensables para que POWERGYM pueda brindarle a sus clientes los servicios contratados, por lo que en caso de revocación del consentimiento o el ejercicio del derecho de cancelación para el tratamiento de dichos datos dará lugar a la rescisión del contrato de prestación de servicios que tenga celebrado con POWERGYM sin responsabilidad para este último.
                 </p>
-                <p>
+                <p class="aprivacidad__content">
                     Trataremos aquellos datos personales de menores de edad, proporcionados por padres y/o tutores, con el consentimiento de estos últimos en todos los casos.
                 </p>
             </article>
         </section>
     </main>
 
-    <aside>
-        <form>
-            <div class="mb-3">
+    <aside class="sidebar">
+        <form class="sidebar__form">
+            <div class="mb-3 sidebar__item">
                 <label for="exampleInputEmail1" class="form-label">Nombre:</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="text" class="form-control sidebar__input" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
-            <div class="mb-3">
+            <div class="mb-3 sidebar__item">
                 <label for="exampleInputPassword1" class="form-label">Teléfono:</label>
-                <input type="tel" class="form-control" id="exampleInputPassword1">
+                <input type="tel" class="form-control sidebar__input" id="exampleInputPassword1">
             </div>
-            <div class="mb-3">
+            <div class="mb-3 sidebar__item">
                 <label for="exampleInputPassword1" class="form-label">Correo electrónico:</label>
-                <input type="email" class="form-control" id="exampleInputPassword1">
+                <input type="email" class="form-control sidebar__input" id="exampleInputPassword1">
             </div>
             
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary sidebar__button">Submit</button>
         </form>
     </aside>
     
-    <footer class="pie">
-      <p>Prolongación División del Norte 000, Col. de Huipulco, Del. Tlalpan, C.P. 14000, CDMX México</p>
-      <p>Tel. 5500550055</p>
-      <p>contacto@powergym.com</p>
-      
-      <a href="http://www.facebook.com">SÍGUENOS EN NUESTRAS REDES SOCIALES</a>
-      <p></p>Derechos reservados PowerGYM S.A de C.V</p>
-  </footer>
+    <footer class="footer pie">
+        <p class="footer__address">Prolongación División del Norte 000, Col. de Huipulco, Del. Tlalpan, C.P. 14000, CDMX México</p>
+        <p class="footer__phone">Tel. 5500550055</p>
+        <p class="footer__email">contacto@powergym.com</p>
+        <a href="http://www.facebook.com" class="footer__social-link">SÍGUENOS EN NUESTRAS REDES SOCIALES</a>
+        <p class="footer__rights">Derechos reservados PowerGYM S.A de C.V</p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
