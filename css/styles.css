@@ -10,18 +10,6 @@ body {
 
 
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr); 
-  grid-template-rows: auto auto auto auto auto; 
-  grid-template-areas:
-    "encab encab encab"
-    "main main main"
-    "main main main"
-    "main main main"
-    "pie pie pie";
-}
-
 .index1 {
   font-size: larger;
   background-color: #D7E06B;
@@ -242,10 +230,8 @@ h1 {
 }
 
 
-
-
 .grid-container {
-  width: 100vw; /* Ancho de toda la pantalla */
+  width: 100vw; 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto auto auto auto;
@@ -257,12 +243,11 @@ h1 {
     "pie pie pie";
 }
 
-/* Añade estilos específicos para el encabezado y el pie de página */
 .encab {
   grid-area: encab;
   text-align: center;
   background-color: #bdd9f2;
-  width: 100vw; /* Ancho de toda la pantalla */
+  width: 100vw;
 }
 
 
@@ -273,7 +258,6 @@ h1 {
   padding: 50px;
 }
 
-/* Estilos para el contenido principal */
 .index1,
 .index2,
 .instal,
@@ -289,7 +273,6 @@ article {
   text-align: center;
 }
 
-/* Media query para pantallas de hasta 768px */
 @media (max-width: 768px) {
   .grid-container {
     grid-template-columns: 1fr;
@@ -297,17 +280,17 @@ article {
     grid-template-areas: "encab" "main" "pie";
   }
 
-  /* Ajustes específicos para el encabezado en dispositivos pequeños */
+
   .encab {
     justify-content: center;
   }
 
-  /* Ajuste para el formulario en la barra lateral en dispositivos pequeños */
+
   .sidebar__form {
     margin-right: 10px;
   }
 
-  /* Ajuste para los elementos de la barra lateral en dispositivos pequeños */
+  
   .sidebar__item {
     margin-right: 10px;
   }
