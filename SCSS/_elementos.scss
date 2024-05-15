@@ -1,0 +1,136 @@
+
+.element__index1
+ {
+  font-size: larger;
+  background-color: $cindex;
+
+  @include pads;
+}
+
+.element__index2 {
+  font-size: larger;
+  @include pads;
+  display: flex;
+  flex-direction: column;
+}
+
+.element__instal
+{
+  font-size: larger;
+  background-color: $cinstall;
+  @include pads;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.element__hist1
+{
+  font-size: larger;
+  background-color: $cinstall;
+  @include pads;
+  display: flex;
+  flex-direction: column;
+}
+
+.element__hist2
+{
+  font-size: larger;
+  padding: 90px;
+  text-align: center;
+  background-color: $cinstall;
+  display: flex;
+  flex-direction: column;
+}
+
+.element__hist3
+  {
+    font-size: larger;
+    padding: 90px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.element__contacto1
+{
+  font-size: larger;
+  background-color: $cindex;
+  @include pads;
+}
+
+
+
+
+
+.index1 {
+  font-size: larger;
+  background-color: $cindex;
+  @include pads;
+}
+
+.index2 {
+  font-size: larger;
+  background-color: $ccolo;
+  @include pads;
+  display: flex;
+  flex-direction: column;
+}
+
+.instal {
+  font-size: larger;
+  background-color: $cinstall;
+  @include pads;
+  display: flex;
+  flex-direction: column;
+}
+
+.hist1 {
+  font-size: larger;
+  background-color: $cinstall;
+  @include pads;
+  display: flex;
+  flex-direction: column;
+}
+
+.hist2 {
+  font-size: larger;
+  padding: 90px;
+  text-align: center;
+  background-color: $ccolo;
+  display: flex;
+  flex-direction: column;
+}
+
+.hist3 {
+  font-size: larger;
+  padding: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto1 {
+  font-size: larger;
+  background-color: $cindex;
+  @include pads;
+}
+
+.pie
+{
+  text-align: center;
+  background-color: $cpie;
+  padding: 50px;
+  grid-area:footer;
+}
+
+
+.section,
+.article,
+.main {
+  font-size: larger;
+  background-color: $cbody;
+  text-align: center;
+}
+

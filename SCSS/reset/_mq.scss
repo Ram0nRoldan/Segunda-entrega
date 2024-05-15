@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      grid-template-areas: "encab" "main" "pie";
+  }
+  .block__encab {
+    justify-content: center;
+  }
+
+  .block__sidebar__form,
+  .block__sidebar__item {
+    margin-right: 1vw; 
+  }
+}

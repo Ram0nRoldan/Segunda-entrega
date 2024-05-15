@@ -1,0 +1,12 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: auto auto auto auto auto; 
+  grid-template-areas:
+    "encab encab encab"
+    "main main main"
+    "main main main"
+    "main main main"
+    "pie pie pie";
+  justify-items: center; 
+}
