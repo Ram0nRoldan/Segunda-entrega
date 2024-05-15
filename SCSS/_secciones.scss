@@ -1,0 +1,217 @@
+
+
+
+.footer {
+  text-align: center;
+  background-color: $cpie;
+  padding: 5vw; 
+  grid-area: footer;
+}
+
+
+.element__main,
+.element__section,
+.element__article {
+  font-size: larger;
+  background-color: $cbody;
+  text-align: center;
+}
+
+
+
+
+.logoinicial,
+.header__logo {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: map-get($titulo, $key: rigt);
+  max-width: 100%;
+  height: auto;
+}
+
+.header__logo img {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: map-get($titulo, $key: rigt);
+  max-width: 100%;
+  height: auto;
+}
+
+.logop img{
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: map-get($titulo, $key: rigt);
+  max-width: 100%;
+  height: auto;
+}
+
+
+.instal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.car {
+  width: 90%;
+  max-width: 600px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: map-get($titulo, $key: rigt);
+}
+
+.car img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.men {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  
+  margin-top: map-get($titulo, $key: to);
+  margin-left: map-get($titulo, $key: lef);
+  margin-right: map-get($titulo, $key: rigt);
+  margin-bottom: map-get($titulo, $key: botto)
+}
+
+.men div img {
+  width: 300px;
+  height: 400px;
+  display: inline;
+  padding-top: 35px;
+}
+
+
+
+
+.header__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  font-size: larger;
+  position: absolute;
+  right: 120px; 
+  top: 20px; 
+  top: map-get($titulo, $key: rigt)
+}
+
+
+
+.nave {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  font-size: larger;
+  position: absolute;
+  right: 120px; 
+  top: map-get($titulo, $key: lef)
+}
+
+
+.cont,
+.sidebar {
+  text-align: left;
+  background-color: $ccolo;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.log {
+  position: fixed;
+  top: 80px;
+  left: 1450px;
+  z-index: 1000;
+}
+
+.mb-3,
+.sidebar__form,
+.sidebar__item {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: left;
+  margin-top: 70px;
+  margin-left: 10px;
+  margin-right: 700px;
+}
+
+.aprivacidad {
+  background-color: $cpriva;
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.logi img {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+}
+
+.vide {
+  text-align: center;
+}
+
+.vide iframe {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.block__log {
+  position: fixed;
+  top: 8vw; 
+  left: 80vw; 
+  z-index: 1000;
+}
+
+.block__encab {
+  text-align: center;
+  background-color: $cbody;
+  width: 100vw;
+}
+
+.encab {
+  grid-area: encab;
+  text-align: center;
+}
+
+.pie {
+  grid-area: pie;
+  text-align: center;
+  background-color: $cpie;
+  padding:50px;
+  grid-area: footer;
+}
+
+
+.nave {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  font-size: larger;
+  position: absolute;
+  right: 120px; 
+  top: 20px; 
+}
