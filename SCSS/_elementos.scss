@@ -7,13 +7,6 @@
   @include pads;
 }
 
-.element__index2 {
-  font-size: larger;
-  @include pads;
-  display: flex;
-  flex-direction: column;
-}
-
 .element__instal
 {
   font-size: larger;
@@ -24,7 +17,7 @@
 }
 
 
-.element__hist1
+.element__hist
 {
   font-size: larger;
   background-color: $cinstall;
@@ -33,7 +26,7 @@
   flex-direction: column;
 }
 
-.element__hist2
+.element__tis
 {
   font-size: larger;
   padding: 90px;
@@ -43,7 +36,7 @@
   flex-direction: column;
 }
 
-.element__hist3
+.element__filoso
   {
     font-size: larger;
     padding: 90px;
@@ -70,7 +63,7 @@
   @include pads;
 }
 
-.index2 {
+.dex {
   font-size: larger;
   background-color: $ccolo;
   @include pads;
@@ -86,7 +79,7 @@
   flex-direction: column;
 }
 
-.hist1 {
+.hist {
   font-size: larger;
   background-color: $cinstall;
   @include pads;
@@ -94,7 +87,7 @@
   flex-direction: column;
 }
 
-.hist2 {
+.tis {
   font-size: larger;
   padding: 90px;
   text-align: center;
@@ -103,7 +96,7 @@
   flex-direction: column;
 }
 
-.hist3 {
+.filoso {
   font-size: larger;
   padding: 90px;
   text-align: center;

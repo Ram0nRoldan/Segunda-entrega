@@ -7,9 +7,39 @@
   .block__encab {
     justify-content: center;
   }
+}
 
-  .block__sidebar__form,
-  .block__sidebar__item {
-    margin-right: 1vw; 
+
+@media (max-width: 768px) {
+
+  .tis {
+    padding: 50px; 
+  }
+  .filoso {
+    padding: 50px; 
+  }
+
+  .car {
+    max-width: 90%; 
+    margin: 50px auto 30px; 
+  }
+
+  .men {
+    margin: 30px auto 100px; 
+  }
+
+  .mb-3,
+  .sidebar__form,
+  .sidebar__item {
+    margin: 30px auto; 
+  }
+
+  .vide iframe {
+    width: 90%; 
+  }
+
+  .log {
+    left: 50%; 
+    transform: translateX(-50%); 
   }
 }
