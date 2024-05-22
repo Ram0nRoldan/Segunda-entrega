@@ -13,34 +13,39 @@
 @media (max-width: 768px) {
 
   .tis {
-    padding: 50px; 
+    max-width: 100%;
+    height: auto; 
   }
   .filoso {
-    padding: 50px; 
+    max-width: 100%;
+    height: auto;
   }
 
   .car {
-    max-width: 90%; 
-    margin: 50px auto 30px; 
+    max-width: 100%;
+    height: auto;
   }
 
   .men {
-    margin: 30px auto 100px; 
+    max-width: 100%;
+    height: auto;
   }
 
   .mb-3,
   .sidebar__form,
   .sidebar__item {
-    margin: 30px auto; 
+    max-width: 100%;
+    height: auto;
   }
 
   .vide iframe {
-    width: 90%; 
+    max-width: 100%;
+    height: auto;
   }
 
   .log {
-    left: 50%; 
-    transform: translateX(-50%); 
+    max-width: 100%;
+    height: auto;
   }
 }
 
