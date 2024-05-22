@@ -45,27 +45,3 @@
 }
 
 
-.navbar-nav {
-  display: flex;
-  gap: 20px; /* Espacio entre los elementos del menú */
-}
-
-.nav-link {
-  color: rgb(13, 1, 1); /* Color del texto del enlace */
-}
-
-/* Media queries para ajustar los estilos en diferentes tamaños de pantalla */
-@media (max-width: 767px) {
-  .nave {
-    justify-content: center; /* Centra los elementos del menú en pantallas pequeñas */
-  }
-
-  .navbar-nav {
-    flex-direction: column; /* Coloca los elementos del menú en una columna en pantallas pequeñas */
-    gap: 10px; /* Reduce el espacio entre los elementos del menú */
-  }
-
-  .nav-link {
-    text-align: center; /* Centra el texto del enlace en pantallas pequeñas */
-  }
-}
