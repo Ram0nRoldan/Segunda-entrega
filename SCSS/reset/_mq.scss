@@ -44,11 +44,6 @@
   }
 }
 
-/* Estilos base para el menú */
-.nave {
-  display: flex;
-  justify-content: flex-end; /* Alinea los elementos a la derecha */
-}
 
 .navbar-nav {
   display: flex;
@@ -56,7 +51,7 @@
 }
 
 .nav-link {
-  color: white; /* Color del texto del enlace */
+  color: rgb(13, 1, 1); /* Color del texto del enlace */
 }
 
 /* Media queries para ajustar los estilos en diferentes tamaños de pantalla */
