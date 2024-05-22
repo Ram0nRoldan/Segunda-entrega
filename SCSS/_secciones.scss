@@ -109,17 +109,6 @@
 
 
 
-.nave {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  font-size: larger;
-  position: absolute;
-  right: 120px; 
-  top: map-get($titulo, $key: lef)
-}
-
-
 .cont,
 .sidebar {
   text-align: left;
@@ -215,3 +204,4 @@ h1 {
   right: 120px; 
   top: 20px; 
 }
+

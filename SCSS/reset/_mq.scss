@@ -43,3 +43,25 @@
     transform: translateX(-50%); 
   }
 }
+
+/* Estilos para pantallas grandes */
+@media (min-width: 992px) {
+  .nave {
+    display: block; /* Asegúrate de que el menú sea visible */
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 991px) {
+  .nave {
+    display: none; /* Oculta el menú en pantallas pequeñas */
+  }
+
+  .navbar-toggler {
+    display: block; /* Muestra el botón del menú en pantallas pequeñas */
+  }
+
+  .offcanvas {
+    display: none; /* Asegúrate de que el menú fuera de canvas esté oculto por defecto */
+  }
+}
