@@ -337,8 +337,6 @@ h1 {
   .block__encab {
     justify-content: center;
   }
-}
-@media (max-width: 768px) {
   .tis {
     max-width: 100%;
     height: auto;
@@ -366,6 +364,10 @@ h1 {
     height: auto;
   }
   .log {
+    max-width: 100%;
+    height: auto;
+  }
+  .nave {
     max-width: 100%;
     height: auto;
   }
